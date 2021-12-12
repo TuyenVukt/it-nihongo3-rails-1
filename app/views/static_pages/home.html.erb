@@ -1,5 +1,7 @@
+
+<h1 class="margin-40-lr">Book Review へよろこそ</h1>
 <hr>
-<h1>HOME PAGE</h1>
+<p>本についてレビューをするサイトです</p>
 <% if user_signed_in? %>
-  <%= link_to '本一覧をみる', books_path %>
+  <%= link_to '本一覧をみる', books_path, :class => "btn btn-primary"  %>
 <% end %>
