@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+$white: white;
+$black: black;
+.link {
+    color: $white;
+}
+a:visited {
+    color: $black;
+}
+a{
+    color: $white;
+    font-size: 18px;
+}
+.margin-40-lr{
+    margin:  40px 0;
+}
+.margin-40-tf{
+    margin:   0 40px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
